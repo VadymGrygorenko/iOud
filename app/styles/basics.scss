@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 6px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    //   padding: 0 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 980px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Lato', sans-serif;
+  color: $mainFontColor;
+}
+
+a {
+  text-decoration: none;
+}

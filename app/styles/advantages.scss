@@ -1,0 +1,34 @@
+.advantages-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20rem;
+}
+
+.advantages {
+  width: 73.5rem;
+  display: flex;
+  transform: translateY(-50%);
+
+  &__item {
+    width: 24.5rem;
+    padding: 3rem 0.5rem;
+    text-align: center;
+    background: $advantages-even;
+    &:nth-child(odd) {
+      background: $advantages-odd;
+    }
+
+    &-image {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .advantages-wrapper {
+    padding-bottom: 10rem;
+  }
+  .advantages {
+    width: 100%;
+  }
+}

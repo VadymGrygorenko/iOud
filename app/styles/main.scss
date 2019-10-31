@@ -1,0 +1,15 @@
+// Reset Css
+@import '../../node_modules/reset-css/reset';
+
+//   Variables, Fonts, Libraries, Basics Values
+@import "fonts";
+@import "variabless";
+@import "basics";
+@import "buttons";
+
+
+//   Components, Pages
+@import "main-header";
+@import "advantages";
+@import "footer";
+

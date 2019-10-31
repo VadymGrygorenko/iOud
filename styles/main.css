@@ -291,7 +291,8 @@ a {
       border: none;
       border-bottom: 1px solid #ffffff;
       background: transparent;
-      color: #ffffff; }
+      color: #ffffff;
+      outline: none;}
   .footer__copy {
     text-align: center;
     color: #ffffff;
